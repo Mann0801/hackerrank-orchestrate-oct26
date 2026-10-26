@@ -1,0 +1,34 @@
+{
+ "cases": 518,
+ "statuses": {
+  "COMPLETE": 155,
+  "INCOMPLETE": 353,
+  "NOT_APPLICABLE": 10
+ },
+ "steps": 3250,
+ "llm": {
+  "per_model": {
+   "gemini:gemini-3.8-flash": {
+    "calls": 19,
+    "items": 407,
+    "input_tokens": 34870,
+    "output_tokens": 52242,
+    "cost_usd": 0.2221
+   },
+   "gemini:gemini-3.5-flash": {
+    "calls": 13,
+    "items": 406,
+    "input_tokens": 25875,
+    "output_tokens": 49705,
+    "cost_usd": 0.4862
+   }
+  },
+  "this_run": {
+   "provider": "offline",
+   "model": "none",
+   "api_calls": 0,
+   "cache_hits": 409,
+   "fallbacks": 0
+  }
+ }
+}

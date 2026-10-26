@@ -1,0 +1,15 @@
+# secrets
+.env
+.env.*
+
+# python
+__pycache__/
+*.pyc
+
+# local duplicates / build artifacts
+code (2)/
+code (3)/
+code.zip
+
+# local agent log
+log.txt
